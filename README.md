@@ -1,39 +1,43 @@
-Teste Prático - Programador
-=============
+CakePHP
+=======
 
-Descrição
----------
+[![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
 
-Para a esse teste os candidatos deverão implementar uma mini aplicação web utilizando como base o framework CakePHP. 
+CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
+Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
-- A aplicação consiste de uma agenda online no qual usuários poderão cadastrar suas atividades e afazeres. Cada item da agenda deve conter uma data, titulo e descrição.
+Some Handy Links
+----------------
 
-- A agenda deve ser disposta num formato de tabela através da qual deve ser possível ordenar e remover itens sem recarregar a página (utilizando ajax).
+[CakePHP](http://www.cakephp.org) - The rapid development PHP framework
 
-Além disso, os usuários deverão se logar para ter acesso à aplicação.
+[CookBook](http://book.cakephp.org) - THE CakePHP user documentation; start learning here!
 
-Observações
------------
+[API](http://api.cakephp.org) - A reference to CakePHP's classes
 
-- Os candidatos deverão utilizar como base o framework CakePHP;
+[Plugins](http://plugins.cakephp.org/) - A repository of extensions to the framework
 
-- Qualquer plugin, extensão ou biblioteca pode ser utilizado na aplicação, assim como vale usar qualquer fonte de informações;
+[The Bakery](http://bakery.cakephp.org) - Tips, tutorials and articles
 
-- Copias de códigos alheios não serão aceitas;
+[Community Center](http://community.cakephp.org) - A source for everything community related
 
-- Apesar de não ser o foco, a aplicação deve possuir uma interface facilmente utilizável (nada de paginas em branco com textos desordenados);
+[Training](http://training.cakephp.org) - Join a live session and get skilled with the framework
 
-- Organização da interface será considerada como diferencial em casos de desempate
+[CakeFest](http://cakefest.org) - Don't miss our annual CakePHP conference
 
-- O desenvolvimento deve ser feito sob controle de versão através do uso do Github;
+[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP
 
-- Os candidatos terão 48hs (contadas a partir do recebimento desta proposta) para entregar a solução;
+Get Support!
+------------
 
-Outros
-------
+[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake
 
-Nosso principal objetivo com esta avaliação não é o de simplesmente medir o domínio das tecnologias solicitadas, mas sim acompanhar como o candidato se comporta em frente ao uso de tecnologias novas. Basicamente queremos ver como você se vira! Deste modo, é importante gerir bem seus commits de modo a mostrar a linha de desenvolvimento.
+[Google Group](https://groups.google.com/group/cake-php) - Community mailing list and forum
 
-Mesmo que você não consiga terminar a aplicação, é importante para nós saber como foi o seu percurso.
+[GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
 
-Boa sorte!
+[Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
+
+[![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
+
+![Cake Power](https://raw.github.com/cakephp/cakephp/master/lib/Cake/Console/Templates/skel/webroot/img/cake.power.gif)
