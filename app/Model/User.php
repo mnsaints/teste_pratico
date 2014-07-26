@@ -4,26 +4,26 @@
 		public $name = 'User';
 		
 		public $validate = array(
-        'username' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A username is required'
-            )
-        )
-		,
-        'userlogin' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A userlogin is required'
-            )
-        ),
-        'userpass' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A password is required'
-            )
-        )
-    );
+			'username' => array(
+				'required' => array(
+					'rule' => array('notEmpty'),
+					'message' => 'Preencha o nome.'
+				)
+			)
+			,
+			'userlogin' => array(
+				'required' => array(
+					'rule' => array('notEmpty'),
+					'message' => 'Preencha o login.'
+				)
+			),
+			'userpass' => array(
+				'required' => array(
+					'rule' => array('notEmpty'),
+					'message' => 'Preencha a senha.'
+				)
+			)
+		);
 	}
 
 ?>
