@@ -1,8 +1,5 @@
 -- phpMyAdmin SQL Dump
 -- version 4.1.12
--- Database: `teste_pratico`
---
--- --------------------------------------------------------
 
 --
 -- Table structure for table `agendas`
@@ -24,11 +21,10 @@ CREATE TABLE IF NOT EXISTS `agendas` (
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `username` varchar(45) NOT NULL,
-  `userlogin` varchar(11) NOT NULL,
-  `userpass` varchar(8) NOT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
-
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
