@@ -3,7 +3,9 @@
 class UsersController extends AppController {
 
 
-   
+   public function index() {
+      	 $this->redirect(array('controller'=> 'agendas', 'action' => 'index'));
+   }
 
     public function view($id = null) {
         $this->User->id = $id;
@@ -17,28 +19,27 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('Usuário cadastrado.'));
+                $this->Session->setFlash(__('Usuário cadastrado.'),  'default',   array('class' => 'alert alert-success'));
                 $this->redirect(array('action' => 'index'));
             } else {
-                $this->Session->setFlash(__('Ocorreu um erro ao cadastrar usuário.'));
+                $this->Session->setFlash(__('Ocorreu um erro ao cadastrar usuário.'), 'default',   array('class' => 'alert alert-danger'));
             }
         }
     }
-
-    
 	
-
+	
 	public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('add', 'logout');
+        $this->Auth->allow('add', 'logout', 'login');
     }
 
 	public function login() {
 		if ($this->Auth->login()) {
-			$this->redirect($this->Auth->redirect());
+			
+			$this->redirect(array('controller' => 'agendas', 'action' => 'index'));
 		} else {
 			if ($this->request->is('post')) {
-				$this->Session->setFlash(__('Usuário ou senha inválidos.'));
+					$this->Session->setFlash(__('Usuário ou senha inválidos.'),  'default',   array('class' => 'alert alert-danger'));				
 			}	
 		}
 	}

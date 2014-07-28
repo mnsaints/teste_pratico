@@ -1,4 +1,3 @@
-
 <h2>Usu&aacute;rios</h2>
 <?php echo $this->Html->link('Novo usuário', array('controller' => 'users', 'action' => 'add')); ?>
 <table>

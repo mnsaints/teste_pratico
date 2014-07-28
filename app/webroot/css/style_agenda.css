@@ -41,13 +41,16 @@ Description: Tema desenvolvido para a Gemm Travel
 }
 
 /*Cabecalho*/
-.container-cabecalho{ width:100%;   background:#F8F8F8; }
-#cabecalho{ background:#000; height:40px;  }
+#container-cabecalho{ width:100%;   background:#39BCEE; }
+#cabecalho{  height:40px;  }
 
-.conteudo {   padding:30px 0 60px 0;  }
-.conteudo h2{ margin-top:0;}
-.conteudo .btn-add{  }
-.box-login{ width:350px; height:200px;  margin-top:60px; }
+#conteudo {   padding:30px 20px 60px 20px;  }
+#conteudo h2{ margin-top:0;}
+#conteudo .order_date:hover,
+#conteudo .order_string:hover{ cursor:pointer;   }
+
+input.datepicker{ clear:right; }
+#conteudo .box-login{ position:relative; width:350px;   height:240px;  margin-top:40px; margin-bottom:40px }
 
 
-#footer {  height:60px; border-top:2px solid #000; background:#F8F8F8;}
+#rodape { height:60px; border-top:2px solid #999  }
