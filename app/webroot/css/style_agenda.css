@@ -1,0 +1,53 @@
+﻿@charset "utf-8"; 
+/*
+Theme Name: Gemm Travel
+Theme URI: http://wordpress.org/themes/twentytwelve
+Author: Marcelo Santos
+Author URI: http://wordpress.org/
+Description: Tema desenvolvido para a Gemm Travel
+*/
+
+/* Configurando Layout
+***********************/
+.layout-centro	{ margin:0 auto; position:relative; }		
+.layout-1280	{ width:1280px; }
+.layout-980	{ width:980px; }
+
+
+/* Definicoes
+******************/
+	html[xmlns] .zwa-clearfix {	display: block;	}	 
+	* html .page-clearfix { height: 1%; } 
+	.page-left{ float:left;}
+	.page-right{ float:right;}
+	.page-clear{ clear:both;}
+	.page-clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+	.page-clearfix { display: inline-block; }
+	.page-replace { text-indent:-9000px; display:block; overflow:hidden;	}
+	.page-nowrap { white-space:nowrap; }
+	body
+	h1,
+	h2,
+	h3,
+	p,
+	a,    
+	span {}
+	body{ margin:0;}
+	ul { padding:0; margin:0; }
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/*Cabecalho*/
+.container-cabecalho{ width:100%;   background:#F8F8F8; }
+#cabecalho{ background:#000; height:40px;  }
+
+.conteudo {   padding:30px 0 60px 0;  }
+.conteudo h2{ margin-top:0;}
+.conteudo .btn-add{  }
+.box-login{ width:350px; height:200px;  margin-top:60px; }
+
+
+#footer {  height:60px; border-top:2px solid #000; background:#F8F8F8;}
